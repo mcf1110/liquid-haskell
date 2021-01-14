@@ -1,0 +1,11 @@
+-- For more information see
+--  http://cabal.readthedocs.io/en/latest/nix-local-build-overview.html
+
+packages: .
+          ./liquid-fixpoint
+
+package liquid-fixpoint
+  flags: devel
+
+package liquidhaskell
+  flags: devel
